@@ -27,11 +27,8 @@ Authenticate with Google Cloud by running the following commands:
 
 ```bash
 gcloud auth login
-gcloud auth application-default login
 gcloud config set project <YOUR_PROJECT_ID>
 ```
-
-> **Note:** `application-default login` is required because the deployment uses Vertex AI (`GOOGLE_GENAI_USE_VERTEXAI=TRUE`).
 
 ### Enable Required APIs
 
