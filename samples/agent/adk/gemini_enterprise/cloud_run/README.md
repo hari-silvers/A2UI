@@ -40,6 +40,8 @@ gcloud services enable \
   run.googleapis.com \
   cloudbuild.googleapis.com \
   aiplatform.googleapis.com \
+  artifactregistry.googleapis.com \
+  iam.googleapis.com \
   --project <YOUR_PROJECT_ID>
 ```
 
